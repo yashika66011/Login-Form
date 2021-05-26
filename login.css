@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    background: url(img/d.jpeg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main h2{
+  font-style: italic;
+  font-size: 50px;
+  font-weight: bold;
+  color: azure;
+  text-align: center;
+}
+
+.square {
+  margin: auto;
+  width: 700px;
+  height: 750px;
+  background: rgb(5, 51, 95);
+  padding: 2em;
+}
+
+label{
+    color: ivory;
+    font-family: monospace;
+    font-size: 110%;
+}
+
+
+input[type="checkbox"]:checked + label {
+    color: black;
+}
+
+.image{
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+.avatar {
+    width: 23%;
+    border-radius: 50%;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.btn {
+      display: inline-block;
+      text-align: center;
+      display: flex;
+      justify-content: space-around;
+}
+  
+button, input[type=reset] {
+    background-color: orange ;
+    color:black;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin: 5px 0;
+    border: black;
+    cursor: pointer;
+}
+  
+.psw {
+    color: blanchedalmond;
+}
+
+a:visited {
+  color: red;
+}
+
+a:link {
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
